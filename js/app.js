@@ -10,7 +10,7 @@ $(document).ready(function(){
     }
 
 var template = function(gif,url){
-    var temp = "<div class='elemento'><img id='img-gif' src='"+gif +"'/><a href='"+url+"'>See More</a></div"
+    var temp = "<div class='elemento'><img id='img-gif' src='"+gif +"'/><a id='text' href='"+url+"'>See More</a></div"
     return temp;
 }
 
