@@ -10,7 +10,7 @@ $(document).ready(function(){
     }
 
 var template = function(gif,url){
-    var temp = "<div class='elemento'><img src='"+gif +"'/><a href='"+url+"'>ver mas</a></div"
+    var temp = "<div class='elemento'><img src='"+gif +"'/><a href='"+url+"'>See More</a></div"
     return temp;
 }
 
@@ -34,7 +34,6 @@ var ajaxGif= function(gif){
 }
 
 $("#buscar-gif").click(function(event){
-    console.log("entro");
     $("#elementos").empty();
     var gif=$("#gif-text").val();
     ajaxGif(gif);
