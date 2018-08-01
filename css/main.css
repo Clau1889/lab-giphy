@@ -35,6 +35,8 @@ section > div.main-box{
     display: inline-block;
     max-height: 85%;
     max-width: 85%;
+    margin-left: auto;
+    margin-right: auto;
     padding-left: 4.5rem;
     padding-top: 1.5rem;
 }
