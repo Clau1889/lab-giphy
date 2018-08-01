@@ -1,13 +1,42 @@
 body{
+    box-sizing: border-box;
     background-color: #c0c5c0;
 }
-.container{
-    width: 65%;
-    margin: 0 auto;
-    text-align: center;
-    background-color: #65737e;
-    padding: 4%;
+
+navbar#header{
+    background-color: rgba(48, 137, 153, 0.897);
+    width: 110%;
 }
+
+navbar > p{
+    color: white;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 200%;
+    text-align: center;
+}
+
+section > div.main-box{
+    background-color: rgba(95, 154, 172, 0.311);
+    height: auto;
+    margin-left: 5%;
+    margin-top: 2rem;
+    padding: 1rem 0.5rem;
+    width: 100%;
+}
+
+/*
+.container > div > button.btn{
+   
+}
+
+.elemento > img#img-gif{
+    border-radius: 5%;
+    max-height: 65%;
+    max-width: 65%;
+    padding-left: 5rem;
+    padding-top: 1.5rem;
+}
+/*
 .container img{
     max-width: 250px;
     padding: 4px;
