@@ -1,9 +1,17 @@
 body{
     box-sizing: border-box;
     background-image: url(../assets/images/background.jpg);
-    background-repeat: no-repeat;
     background-position:  center;
     background-size: cover;
+}
+
+#bck-gnd{
+    background-image: url(../assets/images/background.jpg);
+    background-position:  center;
+    background-size: cover;
+    margin-top: 0;
+    height: 100vh;
+    width: 100vw;
 }
 
 navbar#header{
@@ -12,6 +20,7 @@ navbar#header{
     position: fixed;
     top: 0;
     width: 110%;
+    z-index: 1;
 }
 
 navbar > p{
@@ -22,11 +31,11 @@ navbar > p{
 }
 
 section > div.main-box{
-    background-color: rgba(95, 154, 172, 0.811);
     height: auto;
     margin-left: 1.5%;
-    margin-top: 6rem;
-    padding: 1rem 0.5rem;
+    margin-top: 4rem;
+    padding: 3rem 0.5rem 0;
+    position: relative;
     width: 100%;
 }
 

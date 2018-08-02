@@ -21,7 +21,8 @@ var ajaxGif= function(gif){
         datatype:'json',
         data:{
             q:gif,
-            api_key:'uOgSB5T0U9V4MiUAeTC3bgkMY8aBNsyV'
+            api_key:'uOgSB5T0U9V4MiUAeTC3bgkMY8aBNsyV',
+            limit: 10
         }
     })
     .done(function(response){
