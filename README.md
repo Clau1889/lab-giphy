@@ -2,8 +2,7 @@
 
 
 * **ELABORADO POR** _Claudia Trujillo Blanco
-
-## Gyphy
+* **Curso** _Unidad 3: ¿Qué significa traer datos de un servidor asíncronamente?.
 
 # ¿Cómo funciona Gyphy?
 Gyphy es un aplicación móvil y de escritorio, vamos a darle la oportunidad a nuestros usuarios de buscar GIFs y mostrarlo de la manera más amigable y entretenida posible, para esto usaremos el API de Giphy.
