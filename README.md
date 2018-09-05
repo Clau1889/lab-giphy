@@ -1,11 +1,10 @@
-# Giphy
-
-
 * **ELABORADO POR** _Claudia Trujillo Blanco
 * **Curso** _Unidad 3: ¿Qué significa traer datos de un servidor asíncronamente?.
 * **Desarrollado para**: Laboratoria [http://laboratoria.la]
 
 ![image](https://user-images.githubusercontent.com/37419350/45051526-f556ae80-b049-11e8-824a-4cbcac8c6827.png)
+
+# Giphy
 
 # ¿Cómo funciona Gyphy?
 Gyphy es un aplicación móvil y de escritorio, vamos a darle la oportunidad a nuestros usuarios de buscar GIFs y mostrarlo de la manera más amigable y entretenida posible, para esto usaremos el API de Giphy.
